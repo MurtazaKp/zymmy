@@ -1,0 +1,83 @@
+:root{
+
+--bs-blue:#1c62b7;
+--bs-black:#000000;
+}
+
+a{
+    text-decoration: none;
+}
+
+#gif{
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)), url(../images/luis-vidal-FodEsaNZs48-unsplash.jpg);
+    background-size: 100% 100%;
+  
+}
+
+.space{
+    letter-spacing: 2px;
+}
+
+.text-blue{
+color: var(--bs-blue);
+}
+
+.bg-blue{
+    background-color: var(--bs-blue);
+}
+
+.bg{
+    background: url(../images/media1.jpg);
+    height: 100vh;
+    background-size:100% 100%;
+}
+
+.bg-black{
+    background-color: var(--bs-black);
+}
+.bg-footer{
+    background-color: #0b0b0b;
+}
+
+.img{
+    filter: grayscale(1);
+    transition: 1s;
+}
+.img:hover{
+    filter: grayscale(0);
+    transform: translate(0,-20px);
+}
+
+.grad{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8));
+}
+
+
+.hov1:hover{
+    background-color: var(--bs-blue);
+}
+
+.hov1{
+    transition: 1s;
+}
+
+.hov1:hover h2{
+    color:white;
+}
+
+.hov1:hover p{
+    color:var(--bs-black) !important;
+}
+
+
+.anc:hover{
+    color: var(--bs-blue) !important;
+}
+
+.hovb{
+    transition: 1s;
+}
+
+.hovb:hover{
+    transform: scale(1.2);
+}
